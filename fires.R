@@ -224,7 +224,7 @@ p_anim <- p_fixed +
   shadow_mark()
   
 gif <- animate(p_anim,
-               fps = 4, 
+               fps = 6, 
         renderer = gifski_renderer(loop = FALSE), 
         ref_frame = -1)
 
